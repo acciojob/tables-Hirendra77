@@ -1,11 +1,19 @@
+*{
+    font-family: monospace;
+}
 p{
+    caption-side: top;
     color: rgb(185, 177, 177);
 }
 .row4{
-background: lightgrey;
+background: lightgray;
 border-top: 2px solid black;
 }
+tr:hover{
+    background-color: lightblue;
+}
 #total{
+  
     
     font-weight: bold;
 }
