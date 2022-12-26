@@ -1,6 +1,4 @@
-*{
-    font-family: monospace;
-}
+
 p{
     caption-side: top;
     color: rgb(185, 177, 177);
@@ -13,7 +11,7 @@ tr:hover{
     background-color: lightblue;
 }
 #total{
-  
-    
     font-weight: bold;
+    
+    
 }
