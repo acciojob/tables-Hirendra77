@@ -9,14 +9,15 @@
 </head>
 
 <body>
-	<p >List of all transcations</p>
-	<table class="table">
+	
+	<table class="table table-hover table-responsive">
+		<caption>List of all transcations</caption>
   <thead class="thead-dark">
     <tr>
-      <th class="thead-dark" scope="col">#</th>
-      <th class="thead-dark" scope="col">From</th>
-      <th class="thead-dark" scope="col">To</th>
-      <th class="thead-dark" scope="col">Amount($)</th>
+      <th  scope="col">#</th>
+      <th scope="col">From</th>
+      <th  scope="col">To</th>
+      <th scope="col">Amount($)</th>
     </tr>
   </thead>
   <tbody>
@@ -38,12 +39,11 @@
       <td>John</td>
       <td>2000</td>
     </tr>
-	<tr class="row4">
-		<th scope="row"></th>
-		<td ></td>
-		<td></td>
-		<td  class="" colspan="2" id="total">Total &nbsp; 4000</td>
-	  </tr>
+	<tfoot id="table-light"></tfoot>
+	<tr>
+		<td id="total" colspan="3" class="text-end fw-bold">Total</td>
+		<td class="fw-bold">4000</td>
+	</tr>
 	 
   </tbody>
   
