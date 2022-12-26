@@ -1,2 +1,11 @@
-
-/* Your CSS Code here. */
+p{
+    color: rgb(185, 177, 177);
+}
+.row4{
+background: lightgrey;
+border-top: 2px solid black;
+}
+#total{
+    
+    font-weight: bold;
+}
